@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="숫자 맞히기 게임" />
+    <meta property="og:description" content="컴퓨터가 생성한 1~50 사이의 숫자를 맞혀보세요" />
+    <title>숫자 맞히기 게임</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="guide-box">
+      <h1>숫자 맞히기 게임</h1>
+      <h2 id="result-area">새로운 게임이 시작됩니다</h2>
+      <div id="chance-area">
+        컴퓨터가 생성한 1~50 사이의 숫자를 맞혀야 합니다
+      </div>
+      <p>못맞히면 벌주~~   맞히면 다른 사람 다 벌주~~</p>
+    </div>
+    <div class="input-box">
+      <input id="user-input" type="number" value="" />
+      <button id="play-button">Go~~~!!</button>
+    </div>
+    <div class="reset-box">
+      <button id="reset-button">다시시작</button>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
